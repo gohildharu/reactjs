@@ -1,0 +1,62 @@
+ .character-card {
+  display: flex;
+  background-color: #2d2f35;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  width: 600px;
+}
+
+.character-image {
+  width: 300px;
+  height: 220px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.character-details .name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.status {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.status-dot.alive {
+  background-color: #00ff00;
+}
+
+.status-dot.dead {
+  background-color: #ff0000;
+}
+
+.status-dot.unknown {
+  background-color: blue;
+}
+
+.title {
+  font-size: 15px;
+  color: #a0a0a0;
+  margin: 5px 0 0;
+}
+
+.value {
+  font-size: 20px;
+  margin: 2px 0 5px;
+} 
+
+

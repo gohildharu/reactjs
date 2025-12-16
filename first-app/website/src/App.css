@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+/* .App-download{
+  height:20vmin;
+  pointer-events: none;
+} */
+body{
+  background-color:yellow;
+}
+img{
+  width:300px;
+  height:400px;
+}
+h1{
+  text-align: left;
+
+}
+h1:hover {
+  background-color: brown;
+}
